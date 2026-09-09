@@ -1,6 +1,5 @@
-const SUPABASE_URL = 'YOUR_SUPABASE_URL'; // https://yyfybkcfktstvlcibndn.supabase.co/rest/v1/
-const SUPABASE_KEY = 'YOUR_ANON_KEY'; // sb_publishable_4ch_UXQardyT0zoreWJrcA_Z80PkhOJ
-
+const SUPABASE_URL = 'https://yyfybkcfktstvlcibndn.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_4ch_UXQardyT0zoreWJrcA_Z80PkhOJ';
 class SupabaseClient {
   constructor(url, key) {
     this.url = url;
